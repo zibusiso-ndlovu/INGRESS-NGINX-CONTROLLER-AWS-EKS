@@ -107,10 +107,11 @@ service.beta.kubernetes.io/aws-load-balancer-type: nlb
 
 * Add the following keys to the config map file nginx-config.yaml from the Step 2:
 
+'''
   proxy-protocol: "True"
   real-ip-header: "proxy_protocol"
   set-real-ip-from: "0.0.0.0/0"
-
+'''
 * kubectl apply -f common/nginx-config.yaml
 
 ### Use the public IP of the load balancer to access the Ingress Controller. To get the public IP:
