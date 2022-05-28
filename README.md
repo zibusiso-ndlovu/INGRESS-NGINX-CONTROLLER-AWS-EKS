@@ -1,3 +1,4 @@
+# Intsructions on how to install the NGINX Ingress Controller in your Kubernetes cluster using Kubernetes manifests. IN THIS CASE WE USING AWS EKS.
 ## Clone the Ingress Controller repo and change into the deployments folder:
 
 * git clone https://github.com/nginxinc/kubernetes-ingress.git --branch v2.2.2
